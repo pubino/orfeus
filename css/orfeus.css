@@ -58,6 +58,10 @@
   width: 200px;
 }
 
+#header {
+  background-color: #c6e9ff;
+  background-image: none;
+}
 @media only screen and (max-width: 600px) {
   #header .region-header {
     display: flex;
