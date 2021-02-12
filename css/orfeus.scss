@@ -101,6 +101,11 @@
 		display: flex;
 		flex-flow: column nowrap;
 		align-items: center;
+		
+		.menu--main {
+			background-color: #144ac7;
+		}
+		
 		}
 	.block-menu {
 		display: flex;
@@ -117,9 +122,5 @@
 				vertical-align: middle;
 				padding: 0.5em;
 			}
-	}
-	
-	.menu--main {
-		background-color: #144ac7;
 	}
 }

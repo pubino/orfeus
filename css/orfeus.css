@@ -96,6 +96,9 @@
   flex-flow: column nowrap;
   align-items: center;
 }
+#menubar .region-menubar .menu--main {
+  background-color: #144ac7;
+}
 #menubar .block-menu {
   display: flex;
   justify-content: center;
@@ -111,9 +114,6 @@
   display: inline-block;
   vertical-align: middle;
   padding: 0.5em;
-}
-#menubar .menu--main {
-  background-color: #144ac7;
 }
 
 /*# sourceMappingURL=orfeus.css.map */
