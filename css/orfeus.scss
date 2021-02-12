@@ -60,6 +60,10 @@
 }
 
 #header {
+
+	background-color: #c6e9ff;
+	background-image: none;
+
 	@media only screen and (max-width: 600px) {
 	.region-header {
 		display: flex;
