@@ -1,130 +1,17 @@
+$menu-bg-color: 144ac7;
+$hdr-bg-color: #c6e9ff;
+
 @import 'https://fonts.googleapis.com/css?family=Oswald';
-
-#branding {
-	display: flex;
-	background-color: white;
-	@media (prefers-color-scheme: dark) {
-	background-color: black;
-	}
-	
-	.region-branding {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	align-items: baseline;
-	text-align: center;
-	@media only screen and (max-width: 600px) {
-		flex-flow: column nowrap;
-		justify-content: center;
-		align-items: center;
-	}
-
-	}
-	p {
-		margin: 0;
-	}
-	.block .content {
-		margin-top: 0;
-	}
-	p > a {
-		@media (prefers-color-scheme: dark) {
-			background: url("../images/princeton-university-logo-dark.png") no-repeat 50% 50%;
-		background-size: 300px 45px;
-		text-indent: -999em;
-		min-width: 300px;
-		text-align: left;
-		padding: 1em 0 1em 1em;
-		display: block;
-	}
-		background: url("../images/princeton-university-logo.png") no-repeat 50% 50%;
-		background-size: 300px 45px;
-		text-indent: -999em;
-		min-width: 300px;
-		text-align: left;
-		padding: 1em 0 1em 1em;
-		display: block;
-	}
-	#block-searchform {
-	
-		.search-block-form {
-			display: flex;
-			justify-content: center;
-			align-items: baseline;
-		}
-		
-		.search-form .form-search {
-		float: none;
-		width: 200px;
-		}
-	}
-}
 
 #header {
 
-	background-color: #c6e9ff;
-	background-image: none;
-
-	@media only screen and (max-width: 600px) {
-	.region-header {
-		display: flex;
-		justify-content: center;
-	}
-	.region-header .site-branding {
-		
-			display: flex;
-			flex-flow: column;
-			align-items: center;
-			text-align: center;
-			
-		}
-	}
-}
-
-.menu--main {
-	background-color: #525355;
-}
-
-.region-primary-menu .menu {
-	padding: 0.5em 0 0.5em 0;
-	text-align: center;
-	ul li {
-		display: inline;
-		vertical-align: middle;
-		margin: 0 0.25em 0 0.25em;
-	}
-	a {
-		color: white;
-	}
-	a.active {
-		color: #c9c9c9;
-	}
+	background-color: $hdr-bg-color;
 }
 
 #menubar {
 	.region-menubar {
-		display: flex;
-		flex-flow: column nowrap;
-		align-items: center;
-		
 		.menu--main {
-			background-color: #144ac7;
+			background-color: $menu-bg-color;
 		}
-		
 		}
-	.block-menu {
-		display: flex;
-		justify-content: center;
-		width: 100%;
-			ul {
-				text-align: center;
-			}
-			ul.menu {
-				padding: 0;
-			}
-			ul li {
-				display: inline-block;
-				vertical-align: middle;
-				padding: 0.5em;
-			}
-	}
 }
