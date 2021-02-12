@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 #header {
   background-color: #c6e9ff;
+  background-image: none;
 }
 
 #menubar .region-menubar .menu--main {
