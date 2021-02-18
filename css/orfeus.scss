@@ -1,5 +1,5 @@
-$menu-bg-color: #144ac7;
-$hdr-bg-color: #c6e9ff;
+$menu-bg-color: #7aa1aa;
+$hdr-bg-color: transparent;
 
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
@@ -14,4 +14,8 @@ $hdr-bg-color: #c6e9ff;
 			background-color: $menu-bg-color;
 		}
 		}
+}
+
+#header .site-branding__logo {
+	max-width:25%;
 }
