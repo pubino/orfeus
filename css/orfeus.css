@@ -7,7 +7,8 @@
 }
 
 #menubar .region-menubar .menu--main {
-  background-color: #7aa1aa;
+  background-color: transparent;
+  background: linear-gradient(to right, #52AF57, #A4C954);
 }
 
 #header .site-branding__logo {
