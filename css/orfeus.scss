@@ -1,4 +1,4 @@
-$menu-bg-color: #7aa1aa;
+$menu-bg-color: linear-gradient(to right, #52AF57, #A4C954);
 $hdr-bg-color: transparent;
 
 @import 'https://fonts.googleapis.com/css?family=Oswald';
@@ -13,7 +13,8 @@ $hdr-bg-color: transparent;
 #menubar {
 	.region-menubar {
 		.menu--main {
-			background-color: $menu-bg-color;
+			background-color: transparent;
+			background: $menu-bg-color;
 		}
 		}
 }
