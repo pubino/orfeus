@@ -5,12 +5,12 @@
   background-position: top center;
   background-size: 170px, 100%;
   background-repeat: repeat, no-repeat;
-  border-top: 8px solid #19914D;
 }
 
 #menubar .region-menubar .menu--main {
   background-color: transparent;
   background: linear-gradient(to right, #52AF57, #A4C954);
+  border-top: 8px solid #19914D;
 }
 
 #header .site-branding__logo {
