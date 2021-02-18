@@ -5,7 +5,9 @@ $hdr-bg-color: transparent;
 
 #header {
 	background-color: $hdr-bg-color;
-	background-image: none;
+	background-image: url('/themes/orfeus/images/wind.png');
+	background-position: top center;
+	background-size: 20%;
 }
 
 #menubar {
