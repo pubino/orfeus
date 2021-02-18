@@ -1,7 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 #header {
   background-color: transparent;
-  background-image: none;
+  background-image: url("/themes/orfeus/images/wind.png");
+  background-position: top center;
+  background-size: 20%;
 }
 
 #menubar .region-menubar .menu--main {
