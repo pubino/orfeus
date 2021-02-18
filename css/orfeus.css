@@ -1,9 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 #header {
   background-color: transparent;
-  background-image: url("/themes/orfeus/images/wind.png");
+  background-image: url("/themes/orfeus/images/wind.png"), linear-gradient(to top left, yellow, red);
   background-position: top center;
-  background-size: 20%;
+  background-size: 170px, 100%;
+  background-repeat: repeat, no-repeat;
+  border-top: 8px solid #19914D;
 }
 
 #menubar .region-menubar .menu--main {
