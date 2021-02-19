@@ -30,6 +30,21 @@ $hdr-bg-color: transparent;
 
 }
 
+.subbrand {
+	border-top: none;
+	
+	.view-affiliate-logos-view {
+		.view-content {
+			display: inline-flex;
+			align-items: center;
+		}
+		.views-row {
+			max-width: 25%;
+		}
+	}
+	
+}
+
 #menubar {
 	.region-menubar {
 		.menu--main {

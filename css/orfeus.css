@@ -21,6 +21,17 @@
   margin: 0 0 0 0;
 }
 
+.subbrand {
+  border-top: none;
+}
+.subbrand .view-affiliate-logos-view .view-content {
+  display: inline-flex;
+  align-items: center;
+}
+.subbrand .view-affiliate-logos-view .views-row {
+  max-width: 25%;
+}
+
 #menubar .region-menubar .menu--main {
   background-color: transparent;
   background: linear-gradient(to right, #52AF57, #A4C954);
