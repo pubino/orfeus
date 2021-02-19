@@ -6,15 +6,24 @@
   background-size: 170px, 100%;
   background-repeat: repeat, no-repeat;
 }
+#header .site-branding__text {
+  background-color: rgba(0, 0, 0, 0.21);
+  border-radius: 15px;
+}
+#header .site-branding__name a {
+  font-size: 1.75em;
+  color: white;
+  font-family: Futura;
+}
+#header .site-branding__logo {
+  max-width: 25%;
+  margin: 0 0 0 0;
+}
 
 #menubar .region-menubar .menu--main {
   background-color: transparent;
   background: linear-gradient(to right, #52AF57, #A4C954);
   border-top: 8px solid #19914D;
-}
-
-#header .site-branding__logo {
-  max-width: 25%;
 }
 
 /*# sourceMappingURL=orfeus.css.map */
