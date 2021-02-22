@@ -38,6 +38,11 @@
   max-width: 25%;
   padding: 1.25em;
 }
+@media (max-width: 62em) {
+  .subbrand .view-affiliate-logos-view .affiliate-logo-row {
+    max-width: 50%;
+  }
+}
 
 #menubar .region-menubar .menu--main {
   background-color: transparent;
