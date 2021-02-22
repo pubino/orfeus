@@ -29,6 +29,11 @@
   text-align: right;
   padding: 0.5em;
 }
+@media (max-width: 62em) {
+  .first-last-name {
+    text-align: center;
+  }
+}
 
 .professional-title {
   font-weight: bold;
