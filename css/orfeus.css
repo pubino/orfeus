@@ -21,6 +21,21 @@
   margin: 0 0 0 0;
 }
 
+.first-last-name {
+  color: white;
+  background-color: #E58332;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: right;
+  padding: 0.5em;
+}
+
+.professional-title {
+  font-weight: bold;
+  padding: 2em 0 2em 0em;
+  font-size: 1.1em;
+}
+
 .subbrand {
   border-top: none;
 }
