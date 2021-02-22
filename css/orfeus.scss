@@ -34,6 +34,9 @@ $hdr-bg-color: transparent;
 	background-position: right bottom;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	@media (max-width: 62em) {
+	background-size: 200%;
+	}
 
 	#main-wrapper {
 		background: unset;
