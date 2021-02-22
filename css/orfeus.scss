@@ -43,13 +43,24 @@ $hdr-bg-color: transparent;
 	font-weight: bold;
 	padding: 2em 0 2em 0em;
 	font-size: 1.1em;
+	@media (max-width: 62em) {
+	text-align: center;
+	}
+
 }
 
-.headshot img {
-	float: right;
-	margin: 2em;
-	border-radius: 60px 0px;
-	box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+.headshot {
+	text-align: center;
+	img {
+		float: right;
+		margin: 2em;
+		border-radius: 60px 0px;
+		box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+		@media (max-width: 62em) {
+			float: none;
+		}
+	}
 }
 
 .subbrand {
