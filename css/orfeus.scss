@@ -39,7 +39,7 @@ $hdr-bg-color: transparent;
 			align-items: center;
 			justify-content: center;
 			
-			@media (min-width: 62em) {
+			@media (max-width: 62em) {
 				flex-flow: column;
 			}
 		}

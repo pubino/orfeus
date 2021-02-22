@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 62em) {
+@media (max-width: 62em) {
   .subbrand .view-affiliate-logos-view .view-content {
     flex-flow: column;
   }
