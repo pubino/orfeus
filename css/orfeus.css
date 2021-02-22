@@ -20,13 +20,14 @@
   max-width: 25%;
   margin: 0 0 0 0;
 }
-#header #page {
+
+#page {
   background-image: url("/themes/orfeus/images/solar.jpg");
   background-position: right bottom;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-#header #main-wrapper {
+#page #main-wrapper {
   background: unset;
 }
 
